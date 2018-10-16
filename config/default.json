@@ -1,0 +1,25 @@
+{
+  "log": {
+    "enabled": false,
+    "maxFileSize": "50M",
+    "interval": "1d"
+  },
+  "app": {
+    "request": {
+      "limit": {
+        "enabled": false,
+        "periodInMinutes": 5,
+        "max": 100
+      }
+    }
+  },
+  "pagination": {
+    "default": {
+      "limit": 15,
+      "page": 1,
+      "sortBy": "_id",
+      "sortDir": "asc",
+      "mode": "nopaging"
+    }
+  }
+}

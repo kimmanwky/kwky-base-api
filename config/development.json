@@ -1,0 +1,15 @@
+{
+  "appId": "30b8e31e-2e44-4e86-b01c-43fe54a2e6d1",
+  "sourcePath": "dist",
+  "db": {
+    "mongo": {
+      "default": {
+        "uri": "",
+        "options": {}
+      }
+    },
+    "schema": {
+      "version": 1
+    }
+  }
+}
